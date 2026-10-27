@@ -40,8 +40,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\DiskHealth.ps1
 
 ## Чего скрипт не делает
 
-- Не трогает `pagefile.sys`, `Windows\WinSxS`, `DriverStore` и прочие системно важные места руками — в отчёте для них только штатные способы (powercfg, DISM, cleanmgr, pnputil)
-- Не запускается сам по себе — только по явному вызову
+- Не трогает `pagefile.sys`, `Windows\WinSxS`, `DriverStore` и прочие системно важные места руками - в отчёте для них только штатные способы (powercfg, DISM, cleanmgr, pnputil)
+- Не запускается сам по себе - только по явному вызову
 
 ## Файлы
 
